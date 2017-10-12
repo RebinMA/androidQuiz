@@ -25,7 +25,6 @@
                 android:visibility="visible" />
         </RelativeLayout>
 
-
         <TextView
             android:id="@+id/q1TextView"
             style="@style/textStyle"
