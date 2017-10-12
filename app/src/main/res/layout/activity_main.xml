@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.rebin.android.thirdproject.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/androidLogo"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/android"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/q1TextView"
+            style="@style/textStyle"
+            android:text="Q1/ Android was Founded in Year ......." />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/q1EditText"
+                style="@style/EditTextStyle"
+                android:hint="Your answer goes here ...."
+                android:inputType="number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/q2TextView"
+            style="@style/textStyle"
+            android:text="Q2/ What was the first phone released that ran the Android OS?" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroupForQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2a1"
+                style="@style/EditTextStyle"
+                android:text="Google gPhone" />
+
+            <RadioButton
+                android:id="@+id/q2a2"
+                style="@style/EditTextStyle"
+                android:text="HTC Dream" />
+
+            <RadioButton
+                android:id="@+id/q2a3"
+                style="@style/EditTextStyle"
+                android:text="Samsung Galaxy s1" />
+
+            <RadioButton
+                android:id="@+id/q2a4"
+                style="@style/EditTextStyle"
+                android:text="HTC Hero" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q3TextView"
+            style="@style/textStyle"
+            android:text="Q3/ Most new Android phones have -------" />
+
+        <CheckBox
+            android:id="@+id/q3a1"
+            style="@style/EditTextStyle"
+            android:text="GPS" />
+
+        <CheckBox
+            android:id="@+id/q3a2"
+            style="@style/EditTextStyle"
+            android:text="Wi-Fe" />
+
+        <CheckBox
+            android:id="@+id/q3a3"
+            style="@style/EditTextStyle"
+            android:text="3D display" />
+
+        <CheckBox
+            android:id="@+id/q3a4"
+            style="@style/EditTextStyle"
+            android:text="Fingerprint Scanner" />
+
+
+        <TextView
+            android:id="@+id/q4TextView"
+            style="@style/textStyle"
+            android:text="Q4/ Android Studio is an official ------ for Android." />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/q4EditText"
+                style="@style/EditTextStyle"
+                android:hint="Your answer goes here ...."
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/q5TextView"
+            style="@style/textStyle"
+            android:text="Q5/ Is Android Linux base OS?" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroupForQuestion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q5a1"
+                style="@style/EditTextStyle"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/q5a2"
+                style="@style/EditTextStyle"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q6TextView"
+            style="@style/textStyle"
+            android:text="Q6/ Which of these phones use Android?" />
+
+        <CheckBox
+            android:id="@+id/q6a1"
+            style="@style/EditTextStyle"
+            android:text="Blackbery Priv" />
+
+        <CheckBox
+            android:id="@+id/q6a2"
+            style="@style/EditTextStyle"
+            android:text="Samsung Ative S" />
+
+        <CheckBox
+            android:id="@+id/q6a3"
+            style="@style/EditTextStyle"
+            android:text="Nokia 8" />
+
+        <CheckBox
+            android:id="@+id/q6a4"
+            style="@style/EditTextStyle"
+            android:text="Google Pixel" />
+
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/colorPrimary"
+            android:text="Submit Your Answer"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
